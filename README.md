@@ -1,15 +1,15 @@
-# Smart Traffic Signal Controller 🚦
+# Smart Traffic Signal Controller 
 
 This project simulates a smart traffic signal system using AWS serverless architecture.
 
 ---
 
-## 📌 Description
+##  Description
 A Lambda function is triggered on a schedule using EventBridge. It randomly generates traffic data (LOW, MEDIUM, HIGH), stores it in DynamoDB, and sends an alert via SNS if the traffic level is HIGH.
 
 ---
 
-## 🧰 AWS Services Used
+##  AWS Services Used
 
 - **AWS Lambda** – Main logic for traffic simulation and alerts
 - **Amazon DynamoDB** – Stores timestamped traffic level data
@@ -18,5 +18,5 @@ A Lambda function is triggered on a schedule using EventBridge. It randomly gene
 
 ---
 
-## 🗃️ Folder Structure
+##  Folder Structure
 
